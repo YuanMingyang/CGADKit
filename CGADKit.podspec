@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 传广聚合广告SDK
                        DESC
 
-  s.homepage         = 'https://github.com/YuanMingyang/CGADKit.git'
+  s.homepage         = 'https://github.com/YuanMingyang/CGADKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yuanmingyang' => '302603448@qq.com' }

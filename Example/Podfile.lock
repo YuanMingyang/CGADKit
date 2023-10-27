@@ -1,0 +1,43 @@
+PODS:
+  - Ads-CN (5.7.0.6):
+    - Ads-CN/BUAdSDK (= 5.7.0.6)
+  - Ads-CN/BUAdSDK (5.7.0.6):
+    - BURelyFoundation/CSJ (= 0.3.0.7)
+  - BURelyFoundation/AFNetworking (0.3.0.7)
+  - BURelyFoundation/BURelyFoundationHeader (0.3.0.7)
+  - BURelyFoundation/CSJ (0.3.0.7):
+    - BURelyFoundation/BURelyFoundationHeader
+    - BURelyFoundation/HM
+    - BURelyFoundation/NETWork
+  - BURelyFoundation/HM (0.3.0.7)
+  - BURelyFoundation/NETWork (0.3.0.7):
+    - BURelyFoundation/AFNetworking
+  - CGADKit (1.0.0):
+    - Ads-CN
+    - GDTMobSDK
+  - GDTMobSDK (4.14.45):
+    - GDTMobSDK/GDTMobSDK (= 4.14.45)
+  - GDTMobSDK/GDTMobSDK (4.14.45)
+
+DEPENDENCIES:
+  - CGADKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN
+    - BURelyFoundation
+    - GDTMobSDK
+
+EXTERNAL SOURCES:
+  CGADKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ads-CN: 5b4323c9e216d882ff4bf6339908cc9d4f4e6ca6
+  BURelyFoundation: bfffcd4174e88fde6a73c1d521b801ba117d15b6
+  CGADKit: aee539409ca2cba7361ea543f0296f473fa3f669
+  GDTMobSDK: 149d13de51d63a8ac0368836fd06fd7db52de816
+
+PODFILE CHECKSUM: 75418fa42b40e21dced7fe05fd67d1a1fdfd93a5
+
+COCOAPODS: 1.12.1
